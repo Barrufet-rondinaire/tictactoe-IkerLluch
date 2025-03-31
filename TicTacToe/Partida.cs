@@ -4,4 +4,6 @@ public class Partida{
     public string nomJugador2 {get; set;}
 
     public List<string> Tauler {get; set;}
+
+    
 }

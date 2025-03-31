@@ -44,7 +44,12 @@ class Program
                     var partidas = await client.GetFromJsonAsync <Partida>(
                       $"http://localhost:8080/partida/{i}"
                     );
+                     Console.WriteLine($"{partidas.nomJugador1}: {partidas.nomJugador2}, {partidas.nomJugador2}");
                 }
+
+        
+
+
 
             }
              
